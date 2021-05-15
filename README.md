@@ -1,1 +1,1 @@
-Uhm, I guess I'm gonna make a google homepade clone or something
+Uhm, I guess I'm gonna make a google homepage clone or something
