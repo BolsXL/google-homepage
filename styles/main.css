@@ -14,3 +14,13 @@
 .navbar li {
     display: inline;
 }
+
+.footerRar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerBar li {
+    display: inline;
+}
