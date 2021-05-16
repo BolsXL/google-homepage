@@ -1,0 +1,23 @@
+.flexContainer {
+    display: flex;
+}
+
+.buttonGroup, .centerContent, .searchField, .searchForm {
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchField {
+    margin-top: 10px;
+}
+
+.buttonGroup {
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.buttonGroup button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
