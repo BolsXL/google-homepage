@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="CSS/main.css">
         <meta name="viewport" conent="width=device-width, initial-scale=1">
     </head>
-    <body>
-        
-        <div>
-            <ul class="navbar">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-                <li style="float: right"><a href="#">Profile</a></li>
-                <li style="float: right"><a href="#">Applications</a></li>
-                <li style="float: right"><a href="#">Images</a></li>
-                <li style="float: right"><a href="#">Gmail</a></li>
-            </ul>
-        </div>
 
-        <div class="gridContainer">
-            <div class="centerContent">
-                <img src="media/logo.png">
-                
-                <form>
-                    <input type="search" id="search" name="search">
-                </form>
+    <body class="gridContainer siteWrap">
 
-                <div class="buttons">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
-                </div>
+        <ul class="navbar flexContainer">
+            <li>List Item One</li>
+            <li>List Item Two</li>
+            <li>List Item Three</li>
+        </ul>
+
+        <span class="flexContainer centerContent">
+            <img id="logo" src="Media/logo.png">
+
+            <form>
+                <input type="search" id="search" name="search">
+            </form>
+
+            <div>
+                <button type="submit" form="search" value="Submit">Google Search</button>
+                <button type="submit" form="search" value="Submit">I'm Feeling Lucky</button>
             </div>
-        </div>
+        </span>
 
-        <div class="footer">
-            <ul class="footerBar">
-                <li><a>Advertising</a></li>
-                <li><a>Business</a></li>
-                <li><a>How Search Works</a></li>
-                <li>Carbon neutral since 2007</li>
-                <li><a>Privacy</a></li>
-                <li><a>Terms</a></li>
-                <li><a>Settings</a></li>
-            </ul>
-        </div>
+        <ul class="footer flexContainer">
+            <li>List Item One</li>
+            <li>List Item Two</li>
+            <li>List Item Three</li>
+        </ul>
 
     </body>
-</html>
+
+</html> 
