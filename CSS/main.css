@@ -43,7 +43,7 @@
     padding: 10px;
     border: 1px solid transparent;
     border-radius: 5px;
-    background-color: rgb(216, 216, 216, 0.20);
+    background-color: rgb(216, 216, 216, 0.25);
 }
 
 .buttonGroup button:hover {
@@ -119,4 +119,8 @@ input#search {
 
 input#search:focus-visible {
     outline: none;
+}
+
+input#search:hover {
+    box-shadow: 0 1px 6px rgba(128, 128, 128, 0.30);
 }
