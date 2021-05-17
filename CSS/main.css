@@ -92,12 +92,8 @@ ul.footer, ul.footer a {
     color: rgb(117, 117, 117);
 }
 
-.footGroup1, .footGroup2, .footGroup3 {
+.footGroup1, .footGroup3 {
     max-width: 500px;
-}
-
-.footGroup2 {
-    margin-right: 8vw;
 }
 
 .centerContent {
