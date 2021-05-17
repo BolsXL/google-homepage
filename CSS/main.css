@@ -1,137 +1,145 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .flexContainer {
-    display: flex;
+  display: flex;
 }
 
 .siteWrapper {
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.centerContent, .searchField, .searchForm {
-    margin: auto;
-    flex-direction: column;
+.centerContent,
+.searchField,
+.searchForm {
+  margin: auto;
+  flex-direction: column;
 }
 
 .searchField {
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .searchForm {
-    width: 30vw;
+  width: 30vw;
 }
 
 .buttonGroup {
-    flex-direction: row;
-    margin-top: 15px;
-    justify-content: center;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: center;
 }
 
 .buttonGroup button {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    background-color: rgb(216, 216, 216, 0.25);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216, 0.25);
 }
 
 .navGroup2 {
-    align-items: center;}
+  align-items: center;
+}
 
 #microwave {
-    border: 6px solid transparent;
-    max-height: 24px;
+  border: 6px solid transparent;
+  max-height: 32px;
 }
 
 #microwave:hover {
-    background-color: rgba(115, 115, 115, 0.05);
-    border: 6px solid rgba(115, 115, 115, 0.05);
-    border-radius: 24px;
+  background-color: rgba(115, 115, 115, 0.05);
+  border: 6px solid rgba(115, 115, 115, 0.05);
+  border-radius: 24px;
 }
 
 .buttonGroup button:hover {
-    border:rgba(211, 211, 211, 0.75);
-    border-width: 1px;
-    border-style: solid;
-    cursor: pointer;
+  border: rgba(211, 211, 211, 0.75);
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
 }
 
 ul.navbar {
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-    padding: 15px;
-    justify-content: space-between;
-    align-items: center;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-ul.navbar a, ul.footer a {
-    text-decoration: none;
-    margin: 10px;
+ul.navbar a,
+ul.footer a {
+  text-decoration: none;
+  margin: 10px;
 }
 
-ul.navbar a:hover, ul.footer a:hover {
-    text-decoration: underline;
+ul.navbar a:hover,
+ul.footer a:hover {
+  text-decoration: underline;
 }
 
 ul.footer {
-    list-style-type: none;
-    display: flex;
-    background-color: rgba(211, 211, 211, 0.253);
-    width: 100%;
-    padding: 15px;
-    justify-content: space-between;
+  list-style-type: none;
+  display: flex;
+  background-color: rgba(211, 211, 211, 0.253);
+  width: 100%;
+  padding: 15px;
+  justify-content: space-between;
 }
 
 .searchField a {
-    text-decoration: none;
-    font-size: 14px;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .searchField a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-ul.footer, ul.footer a {
-    color: rgb(117, 117, 117);
+ul.footer,
+ul.footer a {
+  color: rgb(117, 117, 117);
 }
 
-.footGroup1, .footGroup3 {
-    max-width: 500px;
+.footGroup1,
+.footGroup3 {
+  max-width: 500px;
 }
 
 .centerContent {
-    justify-content: center;
-    align-items: center;
-    margin-top: 25vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
 }
 
 .logo {
-    max-width: 272px;
+  max-width: 272px;
 }
 
 input#search {
-    border-radius: 20px;
-    height: 35px;
-    border-color: rgba(0, 0, 0, 0.100);
-    text-indent: 20px;
+  border-radius: 20px;
+  height: 35px;
+  border-color: rgba(0, 0, 0, 0.1);
+  text-indent: 20px;
 }
 
 input#search:focus-visible {
-    outline: none;
+  outline: none;
 }
 
 input#search:hover {
-    box-shadow: 0 1px 6px rgba(128, 128, 128, 0.30);
+  box-shadow: 0 1px 6px rgba(128, 128, 128, 0.3);
 }
