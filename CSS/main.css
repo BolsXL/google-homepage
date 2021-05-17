@@ -46,6 +46,20 @@
     background-color: rgb(216, 216, 216, 0.25);
 }
 
+.navGroup2 {
+    align-items: center;}
+
+#microwave {
+    border: 6px solid transparent;
+    max-height: 24px;
+}
+
+#microwave:hover {
+    background-color: rgba(115, 115, 115, 0.05);
+    border: 6px solid rgba(115, 115, 115, 0.05);
+    border-radius: 24px;
+}
+
 .buttonGroup button:hover {
     border:rgba(211, 211, 211, 0.75);
     border-width: 1px;
@@ -59,6 +73,7 @@ ul.navbar {
     width: 100%;
     padding: 15px;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul.navbar a, ul.footer a {
